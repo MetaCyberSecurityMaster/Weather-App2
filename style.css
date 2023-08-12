@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .location {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .weather-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+  }
+  
+  .icon img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .temperature {
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .description {
+    font-size: 1.5em;
+    text-transform: capitalize;
+    margin-top: 10px;
+  }
+  
+  .forecast {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .forecast h3 {
+    font-size: 1.5em;
+  }
+  
+  .forecast p {
+    font-size: 1.2em;
+  }
